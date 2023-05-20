@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="edit-zone">
+            <div class="title">PHOTO EDITOR</div>
+            <div class="form-group">
+              <input type="text" name="" id="" class="form-control" placeholder="Enter image URL" aria-describedby="helpId">
+              <button class="submit-btn">Submit</button>
+              <small id="helpId" class="text-muted">Ex: https://source.unsplash.com/400x500?pizza</small>
+            </div>
+            <div class="edit-list">
+                <div class="edit-item brightness">
+                    <label for="brightness">Brightness</label>
+                    <input type="range" name="brightness" id="input-range input-brightness">                    
+                </div>
+                <div class="edit-item contrast">
+                    <label for="contrast">Contrast</label>
+                    <input type="range" name="contrast" id="input-range input-contrast">                    
+                </div>
+                <div class="edit-item hue">
+                    <label for="hue">Hue</label>
+                    <input type="range" name="hue" id="input-range input-hue">                    
+                </div>
+                <div class="edit-item blur">
+                    <label for="blur">Blur</label>
+                    <input type="range" name="blur" id="input-range input-blur">                    
+                </div>
+                <div class="edit-item saturation">
+                    <label for="saturation">Saturation</label>
+                    <input type="range" name="saturation" id="input-range input-saturation">                    
+                </div>
+                <div class="edit-item sepia">
+                    <label for="sepia">Sepia</label>
+                    <input type="range" name="sepia" id="input-range input-sepia">                    
+                </div>
+            </div>
+        </div>
+
+        <img class="img"
+            src="https://static.vecteezy.com/system/resources/previews/004/916/020/original/cute-avocado-cartoon-icon-illustration-free-vector.jpg"
+            alt="">
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
