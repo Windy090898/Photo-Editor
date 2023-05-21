@@ -75,7 +75,6 @@ body {
     object-fit: cover;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-
 }
 
 /*Chrome*/
@@ -86,7 +85,7 @@ body {
       -webkit-appearance: none;
       appearance: none;
       width: 100%;
-      margin-top: 10px;
+      margin-bottom: 10px;
       background-color: var(--primary-color);
     }
     
@@ -98,12 +97,12 @@ body {
     }
     
     input[type='range']::-webkit-slider-thumb {
-      width: 10px;
+      width: 20px;
       -webkit-appearance: none;
       height: 10px;
       cursor: ew-resize;
       background: #b7afaf;
-      box-shadow: -80px 0 0 80px var(--dark-primary-color);
+      box-shadow: -120px 0 0 120px var(--dark-primary-color);
     }
 
 }
